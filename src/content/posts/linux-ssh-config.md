@@ -1,0 +1,186 @@
+---
+title: Linux 登录配置
+published: 2023-05-08
+description: 'Linux服务器SSH登录配置教程，包括别名快速登录、免密登录、安全配置等。'
+tags: [Linux, SSH, 配置]
+category: '技术'
+draft: false
+---
+
+### 登录服务器: ssh
+
+ssh，`secure shell protocol`，以更加安全的方式连接远程服务器。
+
+把以下 IP 地址替换为你云服务器的公网地址，并提供密码即可登录。
+
+但记住一个 IP 地址，这是一个反人性的操作，如果你有多个服务器需要管理呢？
+
+```bash
+$ ssh root@172.16.3.2
+```
+
+### 配置别名快速登录：ssh-config
+
+在**本地客户端环境 (个人电脑) 上配置 ssh-config**，**没有该文件则新建文件**。对自己管理的服务器起别名，可以更方便地登录多台云服务器，以下是关于 ssh-config 的配置文件
+
+> 如果 windows 用户需要配置 ssh config，请先安装 [cygwin](http://www.cygwin.com/install.html)或者 mingw（git 自带）作为终端。
+
+- `/etc/ssh/ssh_config`
+- `~/.ssh/config`
+
+以下是快速登录山月两个服务器 `shanyue` 和 `training` 的配置
+
+```text
+# 修改 ssh 配置文件 ~/.ssh/config
+# 172.16.3.2 是内网环境，此处仅做示例
+Host shanyue
+    HostName 172.16.3.2
+    User root
+# 请用真实 IP 地址替换以下的 PUBLIC_IP
+# 并记得替换 User
+Host training
+    HostName <PUBLIC_IP>
+    User root
+```
+
+配置成功之后直接 ssh 就可以直接登录，是不很方便？
+
+```bash
+$ ssh shanyue
+Last login: Wed Jun 15 20:09:14 2022 from 172.16.3.4
+Welcome to Alibaba Cloud Elastic Compute Service !
+
+[root@shanyue ~]
+```
+
+### 免密登录：public-key 与 ssh-copy-id
+
+如何实现远程服务器的免密登录需要两个条件:
+
+1. 两个文件: 本地环境的 `~/.ssh/id_rsa.pub` 与 远程服务器的 `~/.ssh/authorized_keys`
+2. 一个动作: 把本地文件 `~/.ssh/id_rsa.pub` 中内容复制粘贴到远程服务器 `~/.ssh/authorized_keys`
+
+> 如果本地没有 `~/.ssh/id_rsa.pub` 文件，则使用命令 `ssh-keygen` 进行生成。
+
+> `~/.ssh/authorized_keys` 不能拥有其它用户（group、other）的写权限
+
+**总结成一句话，把自己的公钥放在远程服务器的 `authorized_keys` 中**
+
+简单来说，就是 `Ctrl-C` 与 `Ctrl-V` 操作，不过还有一个更加有效率的工具: `ssh-copy-id`。
+
+此时一个解决生产力的命令行工具应运而生: `ssh-copy-id`
+
+```bash
+$ ssh-copy-id shanyue
+$ ssh shanyue
+```
+
+### 安全性: 禁用密码登录
+
+为了更大保障服务器的安全性，这里禁止密码登录。修改云服务器的 `sshd` 配置文件：`/etc/ssh/sshd_config`。其中 `PasswordAuthentication` 设置为 `no`，以此来禁用密码登录。
+
+```text
+# 编辑服务器端的 /etc/ssh/sshd_config
+# 禁用密码登录
+Host *
+    PasswordAuthentication no
+```
+
+### 保持连接，防止断掉
+
+除此之外，还可以通过一些配置来更好地优化我们连接服务器时的体验。
+
+我们可以通过 `man ssh_config`，找到每一项的详细释义。
+
+```text
+# 编辑 ~/.ssh/config
+Host *
+    ServerAliveInterval 30
+    TCPKeepAlive yes
+    ServerAliveCountMax 6
+    Compression yes
+```
+
+`ServerAliveInterval` 将能够保持较长时间 `ssh` 连接，不会使得程序在运行，结果因 ssh 超时而连接断开。
+
+- `ServerAliveInterval`：如果服务器 n 秒没有响应，则 ssh 客户端将发送数据包至 ssh 服务器
+- `ServerAliveCountMax`：直到发送了 n 次，服务器还没有响应，则断掉 ssh 连接
+
+以上配置代表，如果服务器不响应后，服务器在 `30 * 6` 秒后将断开连接。
+
+另外也可以通过 `ssh -o ServerAliveInterval=30 -o ServerAliveCountMax=6 $HOST` 命令传递 ssh_config 配置。
+
+---
+
+### Linux用Docker设置代理
+
+将v2的端口设置好，并在`/etc/v2ray/config.json`这个文件中配置好导出的客户端模块，最后一键运行这个代码
+
+```dockerfile
+docker run -d --name v2ray -v /etc/v2ray:/etc/v2ray -p 10890:10890 v2ray/official v2ray -config=/etc/v2ray/config.json
+```
+
+---
+
+### Docker 查看自己是否启动代理
+
+- 如果是http代理
+
+    ```shell
+    curl --proxy http://127.0.0.1:10890 www.google.com
+    ```
+
+- 如果是socks代理
+
+    ```shell
+    curl --socks5 http://127.0.0.1:10890 www.google.com
+    ```
+
+### 修改登录端口
+
+```bash
+sudo vim /etc/ssh/sshd_config
+#用"/"命令找到Port，并进行修改
+
+sudo /etc/init.d/ssh restart
+# 重启 ssh 连接服务！
+
+# 修改完一定要记得打开修改过的端口
+sudo ufw allow Port
+```
+
+### 关闭防火墙
+
+```bash
+sudo ufw allow Port #指定端口进行开启
+sudo ufw disable #先关闭防火墙 开启的话是enable
+sudo ufw reset #重新设置
+```
+
+## Ubuntu 一键安装
+
+### node
+
+```shell
+sudo apt install nodejs
+```
+
+### npm
+
+```shell
+sudo apt intsall npm
+```
+
+### docker
+
+#### docker安装
+
+```shell
+sudo curl -sSL https://get.daocloud.io/docker | sh
+```
+
+#### docker-compose
+
+```shell
+sudo apt install docker-compose -y
+```

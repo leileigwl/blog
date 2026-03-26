@@ -5,6 +5,7 @@ description: '想你了陈雯俐小宝宝'
 tags: [日记]
 category: '生活'
 draft: false
+image: '/images/blog/cwl-1.jpg'
 ---
 
 想你了陈雯俐小宝宝💖💓🌈
