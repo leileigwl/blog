@@ -8,3 +8,7 @@ draft: false
 ---
 
 想你了陈雯俐小宝宝💖💓🌈
+
+![photo 1](/images/blog/cwl-1.jpg)
+
+![photo 2](/images/blog/cwl-2.png)
