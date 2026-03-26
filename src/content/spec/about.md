@@ -1,9 +1,19 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# 关于我
 
-::github{repo="saicaca/fuwari"}
+我是 Lei（彭耀平），太阳能光伏外贸从业者，也是 AI 工具开发者和副业创业者。
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+## 我在做什么
+
+- **太阳能光伏外贸** - 义乌市耀灿太阳能科技有限公司 / 义乌东辉太阳能科技有限公司
+- **AI 工具开发** - 探索 AI 赋能业务的各种可能性
+- **副业创业** - 持续学习，不断尝试
+
+## 联系方式
+
+- **GitHub**: [@leileigwl](https://github.com/leileigwl)
+- **微信**: leileigwl
+- **店铺**: 义乌市国际商贸城二区东扩 ED2-20448
+
+## 关于这个博客
+
+记录学习、工作和生活中的点点滴滴。
