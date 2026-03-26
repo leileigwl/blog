@@ -7,21 +7,15 @@ category: '技术'
 draft: false
 ---
 
-## 常用命令
-
 | 命令 | 说明 |
 |------|------|
-| `hexo new "title"` | 新建文章 |
-| `hexo new page "name"` | 新建页面 |
-| `hexo generate` | 生成静态文件 |
-| `hexo server` | 启动本地服务器 |
-| `hexo deploy` | 部署 |
-| `hexo clean` | 清除缓存 |
-| `hexo version` | 查看版本 |
+| `hexo g` | 生成 |
+| `hexo s` / `hexo server` | 开始本地预览服务 |
+| `hexo d` / `hexo deploy` | 发布上传 |
+| `hexo clean && hexo g && hexo d` | 组合生成发布命令 |
+| `hexo clean && hexo g && gulp && hexo deploy` | **最常用的组合命令，生成，压缩并发布** |
+| `hexo n` / `hexo new "postName"` | 新建文章 |
+| `hexo new page "pageName"` | 新建页面 |
+| `hexo g` / `hexo generate` | 生成静态页面至public目录 |
 | `hexo help` | 查看帮助 |
-
-## 最常用的组合命令
-
-```bash
-hexo clean && hexo g && gulp && hexo deploy
-```
+| `hexo version` | 查看Hexo版本 |

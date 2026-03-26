@@ -7,30 +7,31 @@ category: '技术'
 draft: false
 ---
 
-## 入门
+## 入门读物
 
-- Python基础教程
-- Python学习手册
+1. 《Python基础教程》
+2. 《Python学习手册》
+3. 《Python编程》
 
-## 进阶
+## 进阶读物
 
-- Python核心编程
-- 流畅的Python
+1. 《Python核心编程》
+2. 《流畅的Python》
 
 ## Web框架
 
-- Django相关书籍
-- Flask相关书籍
+- Django
+- Flask
 
-## 爬虫
+## 爬虫开发
 
-- 用Python写网络爬虫
+- 《用Python写网络爬虫》
 
 ## 数据分析
 
-- 利用Python进行数据分析
+- 《利用Python进行数据分析》
 
 ## 机器学习
 
-- Python机器学习基础教程
-- TensorFlow
+- 《Python机器学习基础教程》
+- 《TensorFlow》

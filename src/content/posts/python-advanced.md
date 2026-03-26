@@ -24,9 +24,23 @@ lambda x: x * x
 
 ## 内置函数
 
-- 数学运算：`abs`、`round`
-- 序列操作：`sorted`、`reversed`
-- 类与对象：`hasattr`、`setattr`
+### 数学运算
+- abs
+- round
+- pow
+- divmod
+
+### 序列操作
+- all
+- any
+- sorted
+- reversed
+
+### 对象操作
+- hasattr
+- getattr
+- setattr
+- isinstance
 
 ## 导入库
 
@@ -34,7 +48,7 @@ lambda x: x * x
 
 ```python
 import json
-json.dumps()  # 编码
+json.dumps(data, ensure_ascii=False)  # 编码，支持中文
 json.loads()  # 解码
 ```
 
@@ -61,4 +75,12 @@ with ThreadPoolExecutor(max_workers=5) as executor:
 
 ## 逆向常用
 
-JavaScript Hook 调试 `document.cookie`
+JavaScript Hook 调试：
+
+```javascript
+Object.defineProperty(document, 'cookie', {
+  set: function(a) {
+    debugger
+  }
+})
+```
