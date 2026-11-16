@@ -1,5 +1,5 @@
 ---
-title: 解锁 Antigravity + 体验最新 4 Hydrogen，附过手机手机提前装好 YouTube、Chrome、Gmail
+title: 解锁 Antigravity + 体验最新 4 Hydrogen，附过手机扫码验证
 published: 2026-11-17
 description: '用 3 月订阅的谷歌学生 Pro 会员解锁 Antigravity 的完整流程：老号与学生认证、改账号关联地区、手机扫码验证技巧，以及实际使用体验。'
 image: 'https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixid=M3wxMTM1NjA4fDB8MXxhbGx8fHx8fHx8fHwxNzk0ODY3NjY3fA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
@@ -44,7 +44,7 @@ draft: false
 
 2. **巧用扫码跳转触发**：当页面弹出发送消息或扫码验证提示时，直接用手机上的 Google 扫码功能去扫。**只要在扫码跳转的过程中成功弹出了 YouTube 客户端，就说明验证通路已经激活了。** 如果一次没弹出，可以多扫几次。
 
-   ![扫码验证](https://img.leileigwl.cn/file/1794865872583_image-20261117054339942.png)
+   ![手机提前装好 YouTube、Chrome、Gmail](https://img.leileigwl.cn/file/1794865872583_image-20261117054339942.png)
 
 3. **完成解锁**：只要成功跳转到 YouTube 页面，验证基本就算跑通了，此时再回到电脑端刷新，就能正常打开并使用 Google Antigravity。
 
