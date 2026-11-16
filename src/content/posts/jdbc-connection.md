@@ -2,6 +2,7 @@
 title: jdbc连接
 published: 2022-07-01
 description: 'JDBC连接数据库的完整流程和具体实现'
+image: 'https://images.unsplash.com/photo-1626624338641-b99e0d32c958?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8N3x8ZGF0YWJhc2UlMjBzZXJ2ZXJ8ZW58MXwwfHx8MTc5NDgyMjAxNnww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [java, jdbc, 数据库]
 category: '技术'
 draft: false

@@ -2,6 +2,7 @@
 title: 代理IP测速
 published: 2023-04-11
 description: '使用SPEEDTEST进行代理测速'
+image: 'https://images.unsplash.com/photo-1518181835702-6eef8b4b2113?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8NXx8bmV0d29yayUyMGNhYmxlc3xlbnwxfDB8fHwxNzk0ODIyMDE3fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [代理, 测速]
 category: '技术'
 draft: false

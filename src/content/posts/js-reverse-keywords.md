@@ -2,6 +2,7 @@
 title: js逆向关键词
 published: 2022-10-15
 description: 'JavaScript逆向工程常用关键词检索技巧'
+image: 'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MXx8Y3liZXIlMjBzZWN1cml0eSUyMGxvY2t8ZW58MXwwfHx8MTc5NDgyMjAxOHww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [javascript, 逆向]
 category: '技术'
 draft: false

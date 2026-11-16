@@ -2,7 +2,7 @@
 title: 2026.04.14 工作记录｜ComfyUI换装扩图技术选型与工作流蓝图
 published: 2026-04-14
 description: '完成AI换装技术选型报告、ComfyUI CDP交互测试、四条工作流蓝图设计，为电商套图系统奠定基础。'
-image: '/images/blog/2026-04-14-cover.jpg'
+image: 'https://images.unsplash.com/photo-1612731486606-2614b4d74921?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8Mnx8ZmFzaGlvbiUyMHN0dWRpbyUyMHBob3RvZ3JhcGh5fGVufDF8MHx8fDE3OTQ4MjIwMTV8MA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [日记, ComfyUI, AI换装, 工作流]
 category: '工作复盘'
 draft: false

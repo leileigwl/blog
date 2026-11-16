@@ -2,7 +2,7 @@
 title: 2026.04.13 工作记录｜把推荐理由改成“老板听得懂”
 published: 2026-04-13
 description: '今天把 TrendRadar 的推荐理由从技术串改成业务口语表达，重点解决重复命中和可读性问题。'
-image: '/images/blog/2026-04-13-cover.jpg'
+image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8M3x8ZGF0YSUyMGRhc2hib2FyZCUyMGFuYWx5dGljc3xlbnwxfDB8fHwxNzk0ODIyMDE1fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [日记, TrendRadar, AI工程]
 category: '工作复盘'
 draft: false

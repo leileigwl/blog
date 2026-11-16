@@ -2,6 +2,7 @@
 title: Python高级语法
 published: 2023-02-08
 description: 'Python高级语法知识点总结'
+image: 'https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MTh8fHB5dGhvbiUyMHByb2dyYW1taW5nJTIwYm9va3N8ZW58MXwwfHx8MTc5NDgyMjAyMHww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [Python]
 category: '技术'
 draft: false

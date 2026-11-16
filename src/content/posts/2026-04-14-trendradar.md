@@ -2,7 +2,7 @@
 title: 2026.04.14 工作记录｜上线、定时采集与备份闭环
 published: 2026-04-14
 description: '完成 TrendRadar 线上部署、定时策略调整、GitHub 提交与双重备份，形成可回滚闭环。'
-image: '/images/blog/2026-04-14-cover.jpg'
+image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8Nnx8ZGF0YSUyMGRhc2hib2FyZCUyMGFuYWx5dGljc3xlbnwxfDB8fHwxNzk0ODIyMDE1fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [日记, TrendRadar, 部署运维]
 category: '工作复盘'
 draft: false

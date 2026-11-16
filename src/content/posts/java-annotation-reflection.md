@@ -2,6 +2,7 @@
 title: java 注释与反射
 published: 2022-07-15
 description: 'Java注解与反射机制学习笔记'
+image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8M3x8cHJvZ3JhbW1pbmclMjBjb2RlJTIwc2NyZWVufGVufDF8MHx8fDE3OTQ4MjIwMTZ8MA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [java, 注解, 反射]
 category: '技术'
 draft: false

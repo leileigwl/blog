@@ -2,6 +2,7 @@
 title: java IO流
 published: 2022-09-05
 description: 'IO是指Input/Output，即输入和输出。本文详细介绍Java中的字节流、字符流、功能流、转换流、基本数据类型流和对象流的使用方法。'
+image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MTl8fHByb2dyYW1taW5nJTIwY29kZSUyMHNjcmVlbnxlbnwxfDB8fHwxNzk0ODIyMDE2fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [Java, IO]
 category: '技术'
 draft: false

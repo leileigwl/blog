@@ -2,6 +2,7 @@
 title: Spring2 框架入门
 published: 2022-08-01
 description: 'Spring框架IoC和AOP详解'
+image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MjB8fHByb2dyYW1taW5nJTIwY29kZSUyMHNjcmVlbnxlbnwxfDB8fHwxNzk0ODIyMDE2fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [Java, Spring, 后端]
 category: '技术'
 draft: false

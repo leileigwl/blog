@@ -2,6 +2,7 @@
 title: 前端结构设计
 published: 2022-08-21
 description: '前端开发查漏补缺，包含浮动、display、选择器、盒子模型、定位等知识点'
+image: 'https://images.unsplash.com/photo-1511649475669-e288648b2339?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8N3x8d2ViJTIwZGVzaWduJTIwZGVza3xlbnwxfDB8fHwxNzk0ODIyMDE4fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [css, html, 前端]
 category: '技术'
 draft: false

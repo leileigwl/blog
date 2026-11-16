@@ -2,6 +2,7 @@
 title: SSM框架整合
 published: 2022-08-31
 description: 'Spring+SpringMVC+MyBatis框架整合配置'
+image: 'https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MzB8fHByb2dyYW1taW5nJTIwY29kZSUyMHNjcmVlbnxlbnwxfDB8fHwxNzk0ODIyMDE2fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [Java, Spring, MyBatis, SSM]
 category: '技术'
 draft: false

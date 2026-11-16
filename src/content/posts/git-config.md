@@ -2,6 +2,7 @@
 title: git 配置
 published: 2022-06-20
 description: 'Git常用配置和操作命令整理'
+image: 'https://images.unsplash.com/photo-1591439657848-9f4b9ce436b9?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8Nnx8dGVybWluYWwlMjBjb21tYW5kJTIwbGluZXxlbnwxfDB8fHwxNzk0ODIyMDE5fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [git, 版本控制]
 category: '技术'
 draft: false

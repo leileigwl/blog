@@ -2,6 +2,7 @@
 title: Linux 基本命令
 published: 2022-09-05
 description: 'Linux入门基础命令大全，包括文件操作、用户管理、进程管理、JDK配置、防火墙配置、MySQL安装等。'
+image: 'https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8NXx8dGVybWluYWwlMjBjb21tYW5kJTIwbGluZXxlbnwxfDB8fHwxNzk0ODIyMDE5fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [Linux, 脚本]
 category: '技术'
 draft: false

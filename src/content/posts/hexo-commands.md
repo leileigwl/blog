@@ -2,6 +2,7 @@
 title: Hexo常用快捷键
 published: 2023-04-11
 description: 'Hexo命令行快捷键汇总'
+image: 'https://images.unsplash.com/photo-1610986603166-f78428624e76?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8Mnx8dGVybWluYWwlMjBjb21tYW5kJTIwbGluZXxlbnwxfDB8fHwxNzk0ODIyMDE5fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [Hexo, 博客]
 category: '技术'
 draft: false

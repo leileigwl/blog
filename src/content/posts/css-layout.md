@@ -2,6 +2,7 @@
 title: Css布局模式
 published: 2022-08-01
 description: 'Flex布局和Grid布局详解'
+image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MTd8fHdlYiUyMGRlc2lnbiUyMGRlc2t8ZW58MXwwfHx8MTc5NDgyMjAxOHww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [CSS, 前端, 布局]
 category: '技术'
 draft: false

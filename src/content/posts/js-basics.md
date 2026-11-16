@@ -2,6 +2,7 @@
 title: JS补充
 published: 2022-11-07
 description: 'JavaScript基础知识补充，包括数组方法、ES6语法、函数、面向对象、DOM操作、事件处理等。'
+image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8N3x8amF2YXNjcmlwdCUyMGNvZGV8ZW58MXwwfHx8MTc5NDgyMjAxN3ww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [JavaScript, ES6]
 category: '技术'
 draft: false

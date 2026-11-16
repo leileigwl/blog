@@ -2,6 +2,7 @@
 title: 常用算法模板
 published: 2023-03-11
 description: '整理常用的算法模板，包括排序、二分、高精度、数据结构、图论、数学等算法。'
+image: 'https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8M3x8bWF0aGVtYXRpY3MlMjBjaGFsa2JvYXJkfGVufDF8MHx8fDE3OTQ4MjIwMTl8MA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [算法, 模板]
 category: '技术'
 draft: false
