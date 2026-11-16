@@ -2,6 +2,7 @@
 title: Docker配置
 published: 2023-05-08
 description: 'Docker开机自启动和镜像源配置'
+image: 'https://images.unsplash.com/photo-1494412519320-aa613dfb7738?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MTB8fHNoaXBwaW5nJTIwY29udGFpbmVycyUyMHBvcnR8ZW58MXwwfHx8MTc5NDgyMjAxOXww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [配置, docker]
 category: '技术'
 draft: false

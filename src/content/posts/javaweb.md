@@ -2,6 +2,7 @@
 title: javaweb
 published: 2022-07-06
 description: 'JavaWeb开发基础知识整理'
+image: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmclMjBjb2RlJTIwc2NyZWVufGVufDF8MHx8fDE3OTQ4MjIwMTZ8MA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [java, javaweb, servlet]
 category: '技术'
 draft: false

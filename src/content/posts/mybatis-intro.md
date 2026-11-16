@@ -2,6 +2,7 @@
 title: mybatis入门
 published: 2022-07-14
 description: 'MyBatis框架入门教程，包含配置、CRUD操作、级联查询、逆向工程等'
+image: 'https://images.unsplash.com/photo-1667372459510-55b5e2087cd0?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MXx8ZGF0YWJhc2UlMjBzZXJ2ZXJ8ZW58MXwwfHx8MTc5NDgyMjAxNnww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [java, mybatis, 数据库]
 category: '技术'
 draft: false

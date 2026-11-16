@@ -2,6 +2,7 @@
 title: 代理IP测速
 published: 2023-04-11
 description: '代理IP测速方法和无广告测速站点'
+image: 'https://images.unsplash.com/photo-1506399309177-3b43e99fead2?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MjV8fG5ldHdvcmslMjBjYWJsZXN8ZW58MXwwfHx8MTc5NDgyMjAxN3ww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [speedtest]
 category: '技术'
 draft: false

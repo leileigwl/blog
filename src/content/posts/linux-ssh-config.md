@@ -2,6 +2,7 @@
 title: Linux 登录配置
 published: 2023-05-08
 description: 'Linux服务器SSH登录配置教程，包括别名快速登录、免密登录、安全配置等。'
+image: 'https://images.unsplash.com/photo-1608742213509-815b97c30b36?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MXx8dGVybWluYWwlMjBjb21tYW5kJTIwbGluZXxlbnwxfDB8fHwxNzk0ODIyMDE5fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [Linux, SSH, 配置]
 category: '技术'
 draft: false

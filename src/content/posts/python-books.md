@@ -2,6 +2,7 @@
 title: Python经典书籍
 published: 2023-04-12
 description: 'Python学习书籍推荐'
+image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8Mjl8fHB5dGhvbiUyMHByb2dyYW1taW5nJTIwYm9va3N8ZW58MXwwfHx8MTc5NDgyMjAyMHww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [Python, 书籍]
 category: '技术'
 draft: false

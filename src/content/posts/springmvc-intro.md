@@ -2,6 +2,7 @@
 title: springmvc框架入门
 published: 2022-07-17
 description: 'Spring MVC框架入门教程，包含核心组件、数据绑定、REST风格等'
+image: 'https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MTJ8fHByb2dyYW1taW5nJTIwY29kZSUyMHNjcmVlbnxlbnwxfDB8fHwxNzk0ODIyMDE2fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [java, spring, springmvc]
 category: '技术'
 draft: false

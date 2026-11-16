@@ -2,6 +2,7 @@
 title: 常用代理配置
 published: 2023-01-12
 description: '各工具代理配置汇总'
+image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8Mnx8bmV0d29yayUyMGNhYmxlc3xlbnwxfDB8fHwxNzk0ODIyMDE3fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [代理, 配置]
 category: '技术'
 draft: false

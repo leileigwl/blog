@@ -2,6 +2,7 @@
 title: 快速幂
 published: 2022-11-08
 description: '快速幂是一种高效计算幂运算的算法，通过二进制分解将时间复杂度从O(n)降低到O(logn)。'
+image: 'https://images.unsplash.com/photo-1509869175650-a1d97972541a?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8OHx8bWF0aGVtYXRpY3MlMjBjaGFsa2JvYXJkfGVufDF8MHx8fDE3OTQ4MjIwMTl8MA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [算法, 快速幂]
 category: '技术'
 draft: false

@@ -2,6 +2,7 @@
 title: Ajax入门
 published: 2022-09-28
 description: 'jQuery Ajax基本用法和参数详解'
+image: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MjR8fGphdmFzY3JpcHQlMjBjb2RlfGVufDF8MHx8fDE3OTQ4MjIwMTd8MA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [ajax, javascript, jquery]
 category: '技术'
 draft: false

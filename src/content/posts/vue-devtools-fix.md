@@ -2,6 +2,7 @@
 title: vue.js 拓展无法使用
 published: 2022-11-14
 description: '解决Vue Devtools无法启用的问题'
+image: 'https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8OHx8amF2YXNjcmlwdCUyMGNvZGV8ZW58MXwwfHx8MTc5NDgyMjAxN3ww&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [vue, 拓展]
 category: '技术'
 draft: false

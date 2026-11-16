@@ -2,6 +2,7 @@
 title: java 跨域请求
 published: 2022-09-05
 description: 'Spring Boot项目中解决跨域的3种方案'
+image: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MXx8cHJvZ3JhbW1pbmclMjBjb2RlJTIwc2NyZWVufGVufDF8MHx8fDE3OTQ4MjIwMTZ8MA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [java, spring, 跨域]
 category: '技术'
 draft: false

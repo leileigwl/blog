@@ -2,6 +2,7 @@
 title: python解码
 published: 2023-05-14
 description: 'Python编码解码相关知识点'
+image: 'https://images.unsplash.com/photo-1576297185621-93ed9df5ca9a?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MjB8fGN5YmVyJTIwc2VjdXJpdHklMjBsb2NrfGVufDF8MHx8fDE3OTQ4MjIwMTh8MA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [python, 编码]
 category: '技术'
 draft: false
@@ -30,7 +31,7 @@ response.encoding = 'utf8' # 将encoding直接转换成utf8
 response.content.decode('utf8') # 二进制内容转换成utf8
 ```
 
-![python编码](https://pic.210214.xyz//random/image-20230514160231034.png)
+![python编码](/images/blog/python-decoding-1.png)
 
 ### 文件读写操作 codecs.open
 

@@ -2,7 +2,7 @@
 title: 2026.04.15 工作记录｜工作流验证与美图设计室对标系统解构
 published: 2026-04-15
 description: '验证三条workflow可导入，完成美图设计室对标系统六层架构设计，编写MVP PRD明确产品边界。'
-image: '/images/blog/2026-04-14-cover.jpg'
+image: 'https://images.unsplash.com/photo-1557924760-b14a6d4a4ef3?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8N3x8ZmFzaGlvbiUyMHN0dWRpbyUyMHBob3RvZ3JhcGh5fGVufDF8MHx8fDE3OTQ4MjIwMTV8MA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [日记, ComfyUI, 产品设计, MVP]
 category: '工作复盘'
 draft: false

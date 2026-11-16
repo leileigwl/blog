@@ -2,6 +2,7 @@
 title: 正则入门
 published: 2022-12-08
 description: '正则表达式是一种用于匹配字符串模式的强大工具，本文介绍正则表达式的基本语法和常用示例。'
+image: 'https://images.unsplash.com/photo-1635372722656-389f87a941b7?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8MXx8bWF0aGVtYXRpY3MlMjBjaGFsa2JvYXJkfGVufDF8MHx8fDE3OTQ4MjIwMTl8MA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [Python, 正则]
 category: '技术'
 draft: false

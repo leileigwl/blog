@@ -2,6 +2,7 @@
 title: css入门
 published: 2022-07-21
 description: 'CSS基础知识入门，包含选择器、样式美化、盒子模型等'
+image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixid=M3wxMTM1NjA4fDB8MXxzZWFyY2h8Mnx8d2ViJTIwZGVzaWduJTIwZGVza3xlbnwxfDB8fHwxNzk0ODIyMDE4fDA&ixlib=rb-4.1.0&w=1600&h=900&fit=crop&fm=webp&q=80'
 tags: [css, 前端]
 category: '技术'
 draft: false
